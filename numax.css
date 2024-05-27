@@ -12,7 +12,6 @@ body{
     background-color: #363062;
 }
 #title-element{
-    /* text-shadow: 2px 2px white; */
     text-align: center;
 }
 header{
@@ -24,6 +23,5 @@ header{
 #my-button{
     background-color: rgba(255, 145, 0, 0.932);
     color: black;
-    /* box-shadow: none; */
     border: none;
 }
