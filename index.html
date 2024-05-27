@@ -5,46 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Numax Cinema</title>
+    <link rel="stylesheet" href="numax.css">
 </head>
 
 <body>
     <header>
-        <h3>NMax</h3>
-        <a href="">
-            <li>Home</li>
-        </a>
-        <a href="">
-            <li>Genres</li>
-        </a>
-        <a href="">
-            <li>Contact</li>
-        </a>
+        <h1>NMax</h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Genres</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <hr>
     <main>
-        <h1>Numax Cinema</h1>
+        <h1 id="title-element" class="colorblue">Numax Cinema</h1>
         <p>Immerse yourself in a <b>realm of cinematic wonders,</b> where <i>blockbusters and
                 classics converge in an endless tapestry of entertainment.</i>
         </p>
-        <p><del>Welcome to</del> it's the ultimate destination for movie lovers, <u>where every frame ignites
+        <p><del id="my-color">Welcome to</del> it's the ultimate destination for movie lovers, <u>where every frame ignites
                 imagination
                 and sparks joy.</u></p>
         <img src="wakanda.jpg" alt="Photo of wakanda forever." height="300px" width="360px">
-        <button>Download</button>
-        <h3>Movies genres</h3>
-        <a href="">
-            <li>Action</li>
-        </a>
-        <a href="">
-            <li>Adventure</li>
-        </a>
-        <a href="">
-            <li>Sci-Fi</li>
-        </a>
-        <a href="">
-            <li>Thriller</li>
-        </a>
-        <h3><del>Your</del> My top 5 cool movies</h3>
+        <button id="my-button">Download</button>
+        <section id="genres">
+            <h3 class="colorblue">Movies genres</h3>
+            <ul>
+                <li><a href="./pages/action.html">Action</a></li>
+                <li>Adventure</li>
+                <li>Sci-Fi</li>
+                <li>Thriller</li>
+            </ul>
+        </section>
+        <h3 class="colorblue"><del id="my-color">Your</del> My top 5 cool movies</h3>
         <ol>
             <a href="https://youtu.be/j5LDHsYXK0I">
                 <li>End game</li>
@@ -65,7 +60,7 @@
     </main>
     <hr>
     <footer>
-        <p>2024 All Rights Reserved</p>
+       <p>&copy; 2024 All Rights Reserved</p>
     </footer>
 
 </body>
