@@ -1,27 +1,56 @@
-*{
-    color: rgba(255, 145, 0, 0.932); */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.colorblue{
-    color: rgba(255, 145, 0, 0.932);
-}
-#color-purple{
-    color: purple;
-}
 body{
     background-color: #363062;
+    color: #f99417;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
 }
-#title-element{
-    text-align: center;
-}
+
 header{
     background-color: white;
 }
-#my-color{
+header h3{
+    font-size: 40px;
+    text-shadow: 1px 2px #4d4c7d;
+}
+nav li a{
+    color: black;
+}
+del {
+    font-weight: 700;
     color: white;
 }
-#my-button{
-    background-color: rgba(255, 145, 0, 0.932);
+button {
+    background-color: #f99417;
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+}
+img {
+    /* width: 40%; */
+}
+.colorblue,
+.cool,
+#genres {
+    width: 70%;
+}
+
+p {
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+    text-shadow: 1px 2.5px #f5f5f5;
+    letter-spacing: 10px;
+}
+
+#genres a{
     color: black;
-    border: none;
+}
+#genres li{
+    color: black;
+}
+footer {
+    background-color: #4d4c7d;
+}
+li a {
+    color: #f5f5f5;
 }
